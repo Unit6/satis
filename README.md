@@ -23,4 +23,18 @@ Create a new commit and push the changes to GitHub:
 
 	git commit -am "Added new package FooBar."
 	git push origin master
-	
+
+## Composer
+
+For packages that require access to packages registered with Satis, add the following to your `composer.json`
+
+```json
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://unit6.github.io/satis"
+        }
+    ]
+}
+```
