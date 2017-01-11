@@ -3,7 +3,8 @@
     "homepage": "https://github.com/Unit6/satis",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/Unit6/cache-php.git" },
-        { "type": "vcs", "url": "https://github.com/Unit6/cache-predis.git" }
+        { "type": "vcs", "url": "https://github.com/Unit6/cache-predis.git" },
+        { "type": "vcs", "url": "https://github.com/Unit6/crypto-php.git" }
     ],
     "require-all": true
 }
