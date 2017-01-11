@@ -1,6 +1,6 @@
 {
     "name": "Unit6 Repository",
-    "homepage": "https://satis.veco.io",
+    "homepage": "https://github.com/Unit6/satis",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/Unit6/cache-php.git" }
     ],
