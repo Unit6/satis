@@ -1,0 +1,190 @@
+{
+    "packages": {
+        "unit6/cache": {
+            "v0.1.2": {
+                "name": "unit6/cache",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/cache-php.git",
+                    "reference": "45085b6ba5a35da8fecbd0c3e61dca4b72beb17e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/cache-php/zipball/45085b6ba5a35da8fecbd0c3e61dca4b72beb17e",
+                    "reference": "45085b6ba5a35da8fecbd0c3e61dca4b72beb17e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "psr/cache": "^1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-11T13:19:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Cache\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Simple PSR-6 compliant cache library.",
+                "support": {
+                    "source": "https://github.com/Unit6/cache-php/tree/v0.1.2",
+                    "issues": "https://github.com/Unit6/cache-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/cache",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/cache-php.git",
+                    "reference": "45085b6ba5a35da8fecbd0c3e61dca4b72beb17e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/cache-php/zipball/45085b6ba5a35da8fecbd0c3e61dca4b72beb17e",
+                    "reference": "45085b6ba5a35da8fecbd0c3e61dca4b72beb17e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "psr/cache": "^1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-11T13:19:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Cache\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Simple PSR-6 compliant cache library.",
+                "support": {
+                    "source": "https://github.com/Unit6/cache-php/tree/v0.1.2",
+                    "issues": "https://github.com/Unit6/cache-php/issues"
+                }
+            }
+        },
+        "unit6/cache-predis": {
+            "v0.1.3": {
+                "name": "unit6/cache-predis",
+                "version": "v0.1.3",
+                "version_normalized": "0.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/cache-predis.git",
+                    "reference": "c1feb2cf36d52ba8551eea70ad2b530a1993924d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/cache-predis/zipball/c1feb2cf36d52ba8551eea70ad2b530a1993924d",
+                    "reference": "c1feb2cf36d52ba8551eea70ad2b530a1993924d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "predis/predis": "^1.0",
+                    "unit6/cache": "^0.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.2"
+                },
+                "time": "2017-01-11T17:25:38+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Cache\\Adapter\\Predis\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Simple PSR-6 compliant cache library.",
+                "support": {
+                    "source": "https://github.com/Unit6/cache-predis/tree/v0.1.3",
+                    "issues": "https://github.com/Unit6/cache-predis/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/cache-predis",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/cache-predis.git",
+                    "reference": "c1feb2cf36d52ba8551eea70ad2b530a1993924d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/cache-predis/zipball/c1feb2cf36d52ba8551eea70ad2b530a1993924d",
+                    "reference": "c1feb2cf36d52ba8551eea70ad2b530a1993924d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "predis/predis": "^1.0",
+                    "unit6/cache": "^0.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.2"
+                },
+                "time": "2017-01-11T17:25:38+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Cache\\Adapter\\Predis\\": "src/"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Simple PSR-6 compliant cache library.",
+                "support": {
+                    "source": "https://github.com/Unit6/cache-predis/tree/v0.1.3",
+                    "issues": "https://github.com/Unit6/cache-predis/issues"
+                }
+            }
+        }
+    }
+}
