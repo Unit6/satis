@@ -336,6 +336,104 @@
                 }
             }
         },
+        "unit6/form": {
+            "v0.1.5": {
+                "name": "unit6/form",
+                "version": "v0.1.5",
+                "version_normalized": "0.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/form-php.git",
+                    "reference": "ca3daec38e3398a610dba20f45d956deb6b27c18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/form-php/zipball/ca3daec38e3398a610dba20f45d956deb6b27c18",
+                    "reference": "ca3daec38e3398a610dba20f45d956deb6b27c18",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "unit6/session": "^0.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-18T16:05:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Form\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Simple form utilities.",
+                "keywords": [
+                    "form"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/form-php/tree/v0.1.5",
+                    "issues": "https://github.com/Unit6/form-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/form",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/form-php.git",
+                    "reference": "ca3daec38e3398a610dba20f45d956deb6b27c18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/form-php/zipball/ca3daec38e3398a610dba20f45d956deb6b27c18",
+                    "reference": "ca3daec38e3398a610dba20f45d956deb6b27c18",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "unit6/session": "^0.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-18T16:05:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Form\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Simple form utilities.",
+                "keywords": [
+                    "form"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/form-php/tree/v0.1.5",
+                    "issues": "https://github.com/Unit6/form-php/issues"
+                }
+            }
+        },
         "unit6/http": {
             "v0.2.1": {
                 "name": "unit6/http",
@@ -423,6 +521,102 @@
                 "support": {
                     "source": "https://github.com/Unit6/http-php/tree/v0.2.1",
                     "issues": "https://github.com/Unit6/http-php/issues"
+                }
+            }
+        },
+        "unit6/jwt": {
+            "v1.0.1": {
+                "name": "unit6/jwt",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/jwt-php.git",
+                    "reference": "00ec8b7c32168a166a324ad1b036192327cbae23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/jwt-php/zipball/00ec8b7c32168a166a324ad1b036192327cbae23",
+                    "reference": "00ec8b7c32168a166a324ad1b036192327cbae23",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-18T15:57:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\JWT\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Encode or decode JSON Web Token.",
+                "keywords": [
+                    "jwt"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/jwt-php/tree/v1.0.1",
+                    "issues": "https://github.com/Unit6/jwt-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/jwt",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/jwt-php.git",
+                    "reference": "00ec8b7c32168a166a324ad1b036192327cbae23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/jwt-php/zipball/00ec8b7c32168a166a324ad1b036192327cbae23",
+                    "reference": "00ec8b7c32168a166a324ad1b036192327cbae23",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-18T15:57:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\JWT\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Encode or decode JSON Web Token.",
+                "keywords": [
+                    "jwt"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/jwt-php/tree/v1.0.1",
+                    "issues": "https://github.com/Unit6/jwt-php/issues"
                 }
             }
         },
