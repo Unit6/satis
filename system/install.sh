@@ -47,7 +47,7 @@ if [ -d "$ENGINE" ]; then
         echo $COMPOSER_CHECKSUM > $COMPOSER_HASH
         #echo "Composer hash updated: ${COMPOSER_CHECKSUM}"
     else
-        #echo "Composer files unchanged. No need to update dependencies."
+        : #echo "Composer files unchanged. No need to update dependencies."
     fi
 else
     #echo "Installing composer/satis ..."
