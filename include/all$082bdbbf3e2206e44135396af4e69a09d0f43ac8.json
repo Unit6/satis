@@ -336,6 +336,153 @@
                 }
             }
         },
+        "unit6/docusign": {
+            "v0.1.0": {
+                "name": "unit6/docusign",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/docusign-php.git",
+                    "reference": "07e43dd4570aa5b93425db835a77d90b2a0ee346"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/docusign-php/zipball/07e43dd4570aa5b93425db835a77d90b2a0ee346",
+                    "reference": "07e43dd4570aa5b93425db835a77d90b2a0ee346",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T10:14:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\DocuSign\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "DocuSign client library in PHP to help you get started with the DocuSign eSignature API.",
+                "keywords": [
+                    "docusign",
+                    "esignature"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/docusign-php/tree/v0.1.0",
+                    "issues": "https://github.com/Unit6/docusign-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/docusign",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/docusign-php.git",
+                    "reference": "07e43dd4570aa5b93425db835a77d90b2a0ee346"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/docusign-php/zipball/07e43dd4570aa5b93425db835a77d90b2a0ee346",
+                    "reference": "07e43dd4570aa5b93425db835a77d90b2a0ee346",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T10:14:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\DocuSign\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "DocuSign client library in PHP to help you get started with the DocuSign eSignature API.",
+                "keywords": [
+                    "docusign",
+                    "esignature"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/docusign-php/tree/v0.1.0",
+                    "issues": "https://github.com/Unit6/docusign-php/issues"
+                }
+            },
+            "dev-md_dev": {
+                "name": "unit6/docusign",
+                "version": "dev-md_dev",
+                "version_normalized": "dev-md_dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/docusign-php.git",
+                    "reference": "1b5fcb5c68e3ee8ab808e31f2a0ce0941bf50173"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/docusign-php/zipball/1b5fcb5c68e3ee8ab808e31f2a0ce0941bf50173",
+                    "reference": "1b5fcb5c68e3ee8ab808e31f2a0ce0941bf50173",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.2",
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T10:42:57+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\DocuSign\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "DocuSign client library in PHP to help you get started with the DocuSign eSignature API.",
+                "keywords": [
+                    "docusign",
+                    "esignature"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/docusign-php/tree/md_dev",
+                    "issues": "https://github.com/Unit6/docusign-php/issues"
+                }
+            }
+        },
         "unit6/form": {
             "v0.1.5": {
                 "name": "unit6/form",
@@ -431,6 +578,206 @@
                 "support": {
                     "source": "https://github.com/Unit6/form-php/tree/v0.1.5",
                     "issues": "https://github.com/Unit6/form-php/issues"
+                }
+            }
+        },
+        "unit6/gocardless": {
+            "v0.1.0": {
+                "name": "unit6/gocardless",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/gocardless-php.git",
+                    "reference": "a6658d5989ecacfa7ab98c23b3326e9f5b2748fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/gocardless-php/zipball/a6658d5989ecacfa7ab98c23b3326e9f5b2748fb",
+                    "reference": "a6658d5989ecacfa7ab98c23b3326e9f5b2748fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T12:16:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\GoCardless\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "The PHP client library for the GoCardless API",
+                "keywords": [
+                    "gocardless",
+                    "pay",
+                    "payments"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/gocardless-php/tree/v0.1.0",
+                    "issues": "https://github.com/Unit6/gocardless-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/gocardless",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/gocardless-php.git",
+                    "reference": "8a331698a28d44be173760d32e02a19a852626f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/gocardless-php/zipball/8a331698a28d44be173760d32e02a19a852626f4",
+                    "reference": "8a331698a28d44be173760d32e02a19a852626f4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T12:34:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\GoCardless\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "The PHP client library for the GoCardless API",
+                "keywords": [
+                    "gocardless",
+                    "pay",
+                    "payments"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/gocardless-php/tree/master",
+                    "issues": "https://github.com/Unit6/gocardless-php/issues"
+                }
+            }
+        },
+        "unit6/hawk": {
+            "v2.0.7": {
+                "name": "unit6/hawk",
+                "version": "v2.0.7",
+                "version_normalized": "2.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/hawk-php.git",
+                    "reference": "78e62a34c2fd8fc521c47dace5ff5fe92242a153"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/hawk-php/zipball/78e62a34c2fd8fc521c47dace5ff5fe92242a153",
+                    "reference": "78e62a34c2fd8fc521c47dace5ff5fe92242a153",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T13:10:28+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Hawk\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "A PHP Implementation of Hawk.",
+                "keywords": [
+                    "authentication",
+                    "bewit",
+                    "hawk"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/hawk-php/tree/v2.0.7",
+                    "issues": "https://github.com/Unit6/hawk-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/hawk",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/hawk-php.git",
+                    "reference": "78e62a34c2fd8fc521c47dace5ff5fe92242a153"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/hawk-php/zipball/78e62a34c2fd8fc521c47dace5ff5fe92242a153",
+                    "reference": "78e62a34c2fd8fc521c47dace5ff5fe92242a153",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T13:10:28+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Hawk\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "A PHP Implementation of Hawk.",
+                "keywords": [
+                    "authentication",
+                    "bewit",
+                    "hawk"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/hawk-php/tree/v2.0.7",
+                    "issues": "https://github.com/Unit6/hawk-php/issues"
                 }
             }
         },
@@ -676,12 +1023,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Unit6/log-php.git",
-                    "reference": "69c4c1f9790cedac8f27c4d8428bd95c84cd4109"
+                    "reference": "11ef68acf79a0ade6f4cc347fad14de94dad9009"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Unit6/log-php/zipball/69c4c1f9790cedac8f27c4d8428bd95c84cd4109",
-                    "reference": "69c4c1f9790cedac8f27c4d8428bd95c84cd4109",
+                    "url": "https://api.github.com/repos/Unit6/log-php/zipball/11ef68acf79a0ade6f4cc347fad14de94dad9009",
+                    "reference": "11ef68acf79a0ade6f4cc347fad14de94dad9009",
                     "shasum": ""
                 },
                 "require": {
@@ -691,7 +1038,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^5.7"
                 },
-                "time": "2017-01-18T16:42:02+00:00",
+                "time": "2017-01-18T16:45:22+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -713,8 +1060,106 @@
                     "logging"
                 ],
                 "support": {
-                    "source": "https://github.com/Unit6/log-php/tree/v0.1.4",
+                    "source": "https://github.com/Unit6/log-php/tree/master",
                     "issues": "https://github.com/Unit6/log-php/issues"
+                }
+            }
+        },
+        "unit6/mandrill": {
+            "v0.1.0": {
+                "name": "unit6/mandrill",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/mandrill-php.git",
+                    "reference": "1b66d322dd0847bc92656af1ecaf7da390ed9229"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/mandrill-php/zipball/1b66d322dd0847bc92656af1ecaf7da390ed9229",
+                    "reference": "1b66d322dd0847bc92656af1ecaf7da390ed9229",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2017-01-19T12:53:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Mandrill\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Send transactional email with the Mandrill API.",
+                "keywords": [
+                    "email",
+                    "mandrill"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/mandrill-php/tree/v0.1.0",
+                    "issues": "https://github.com/Unit6/mandrill-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/mandrill",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/mandrill-php.git",
+                    "reference": "1b66d322dd0847bc92656af1ecaf7da390ed9229"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/mandrill-php/zipball/1b66d322dd0847bc92656af1ecaf7da390ed9229",
+                    "reference": "1b66d322dd0847bc92656af1ecaf7da390ed9229",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2017-01-19T12:53:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\Mandrill\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Send transactional email with the Mandrill API.",
+                "keywords": [
+                    "email",
+                    "mandrill"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/mandrill-php/tree/v0.1.0",
+                    "issues": "https://github.com/Unit6/mandrill-php/issues"
                 }
             }
         },
@@ -901,6 +1346,104 @@
                 "support": {
                     "source": "https://github.com/Unit6/session-php/tree/v0.1.1",
                     "issues": "https://github.com/Unit6/session-php/issues"
+                }
+            }
+        },
+        "unit6/zxcvbn": {
+            "v1.0.2": {
+                "name": "unit6/zxcvbn",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/zxcvbn-php.git",
+                    "reference": "84faf8b896d3fc881bdd8d5cbae41401e12391d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/zxcvbn-php/zipball/84faf8b896d3fc881bdd8d5cbae41401e12391d4",
+                    "reference": "84faf8b896d3fc881bdd8d5cbae41401e12391d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T13:19:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\zxcvbn\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "tean@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "A PHP Implementation of the password strength estimator zxcvbn by Dropbox.",
+                "keywords": [
+                    "password",
+                    "zxcvbn"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/zxcvbn-php/tree/v1.0.2",
+                    "issues": "https://github.com/Unit6/zxcvbn-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/zxcvbn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/zxcvbn-php.git",
+                    "reference": "642122277ee169f7ea2bf2c94f81190f74cdb9f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/zxcvbn-php/zipball/642122277ee169f7ea2bf2c94f81190f74cdb9f2",
+                    "reference": "642122277ee169f7ea2bf2c94f81190f74cdb9f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-01-19T13:21:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\zxcvbn\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "tean@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "A PHP Implementation of the password strength estimator zxcvbn by Dropbox.",
+                "keywords": [
+                    "password",
+                    "zxcvbn"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/zxcvbn-php/tree/master",
+                    "issues": "https://github.com/Unit6/zxcvbn-php/issues"
                 }
             }
         }
