@@ -15,6 +15,7 @@
         { "type": "vcs", "url": "https://github.com/Unit6/mandrill-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/router-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/session-php.git" },
+        { "type": "vcs", "url": "https://github.com/Unit6/worldpay-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/zxcvbn-php.git" }
     ],
     "require-all": true
