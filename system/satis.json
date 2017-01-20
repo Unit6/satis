@@ -13,6 +13,7 @@
         { "type": "vcs", "url": "https://github.com/Unit6/jwt-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/log-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/mandrill-php.git" },
+        { "type": "vcs", "url": "https://github.com/Unit6/passport-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/router-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/session-php.git" },
         { "type": "vcs", "url": "https://github.com/Unit6/worldpay-php.git" },
