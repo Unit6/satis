@@ -1365,19 +1365,19 @@
                     "issues": "https://github.com/Unit6/portalpal-php/issues"
                 }
             },
-            "dev-master": {
+            "v1.0.1": {
                 "name": "unit6/portalpal",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Unit6/portalpal-php.git",
-                    "reference": "107d33a8ecf357ab61ef377eed49e2b28f98d8ea"
+                    "reference": "8e684b4cf0ae7b410f6a8c670b1257a524c38994"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Unit6/portalpal-php/zipball/107d33a8ecf357ab61ef377eed49e2b28f98d8ea",
-                    "reference": "107d33a8ecf357ab61ef377eed49e2b28f98d8ea",
+                    "url": "https://api.github.com/repos/Unit6/portalpal-php/zipball/8e684b4cf0ae7b410f6a8c670b1257a524c38994",
+                    "reference": "8e684b4cf0ae7b410f6a8c670b1257a524c38994",
                     "shasum": ""
                 },
                 "require": {
@@ -1388,12 +1388,17 @@
                 "require-dev": {
                     "phpunit/phpunit": "^5.7"
                 },
-                "time": "2017-03-02T11:42:44+00:00",
+                "time": "2017-03-20T12:28:07+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
                         "Unit6\\PortalPal\\": "src/"
                     }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
                 },
                 "license": [
                     "MIT"
@@ -1410,7 +1415,115 @@
                     "portalpal"
                 ],
                 "support": {
-                    "source": "https://github.com/Unit6/portalpal-php/tree/v1.0.0",
+                    "source": "https://github.com/Unit6/portalpal-php/tree/v1.0.1",
+                    "issues": "https://github.com/Unit6/portalpal-php/issues"
+                }
+            },
+            "dev-master": {
+                "name": "unit6/portalpal",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/portalpal-php.git",
+                    "reference": "8e684b4cf0ae7b410f6a8c670b1257a524c38994"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/portalpal-php/zipball/8e684b4cf0ae7b410f6a8c670b1257a524c38994",
+                    "reference": "8e684b4cf0ae7b410f6a8c670b1257a524c38994",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "unit6/hawk": "^2.0",
+                    "unit6/http": "^0.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-03-20T12:28:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\PortalPal\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Retrieve near real-time property marketing data from the PortalPal API.",
+                "keywords": [
+                    "portalpal"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/portalpal-php/tree/v1.0.1",
+                    "issues": "https://github.com/Unit6/portalpal-php/issues"
+                }
+            },
+            "dev-md_area": {
+                "name": "unit6/portalpal",
+                "version": "dev-md_area",
+                "version_normalized": "dev-md_area",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Unit6/portalpal-php.git",
+                    "reference": "64115d039b2c627fafc91d9b1739b19f75b35e53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Unit6/portalpal-php/zipball/64115d039b2c627fafc91d9b1739b19f75b35e53",
+                    "reference": "64115d039b2c627fafc91d9b1739b19f75b35e53",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0",
+                    "unit6/hawk": "^2.0",
+                    "unit6/http": "^0.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-03-20T12:19:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Unit6\\PortalPal\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Unit6",
+                        "email": "team@unit6websites.com",
+                        "homepage": "http://www.unit6websites.com"
+                    }
+                ],
+                "description": "Retrieve near real-time property marketing data from the PortalPal API.",
+                "keywords": [
+                    "portalpal"
+                ],
+                "support": {
+                    "source": "https://github.com/Unit6/portalpal-php/tree/md_area",
                     "issues": "https://github.com/Unit6/portalpal-php/issues"
                 }
             }
